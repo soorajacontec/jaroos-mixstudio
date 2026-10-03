@@ -62,16 +62,6 @@ python3 -m http.server 8080
 
 The microphone, service worker and app install need **HTTPS or localhost**, so opening `index.html` directly from disk will not enable them.
 
-## Publish on GitHub Pages
-
-This repository includes a workflow (`.github/workflows/deploy-pages.yml`) that publishes the site on every push to `main`.
-
-1. Push the repository to GitHub.
-2. Go to **Settings → Pages** and set **Source** to **GitHub Actions**.
-3. Push to `main`, or run the workflow from the **Actions** tab.
-4. Your app is live at `https://soorajacontec.github.io/jaroos-mixstudio/`.
-
-Prefer no workflow? Set **Source** to **Deploy from a branch**, pick `main` and `/ (root)`.
 
 ## Install as an app
 
