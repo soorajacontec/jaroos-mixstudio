@@ -1,0 +1,50 @@
+{
+  "name": "Jaroos Mix Studio",
+  "short_name": "Jaroos",
+  "description": "Mix voice notes, speech and songs with beats, DJ effects, and Indian and world instruments.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#100e17",
+  "theme_color": "#100e17",
+  "categories": [
+    "music",
+    "entertainment"
+  ],
+  "icons": [
+    {
+      "src": "icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "icons/maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "id": "./",
+  "screenshots": [
+    {
+      "src": "screenshots/desktop-dark.png",
+      "sizes": "1280x820",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "Jaroos mix studio on desktop"
+    },
+    {
+      "src": "screenshots/mobile-dark.png",
+      "sizes": "780x1688",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "Jaroos on a phone"
+    }
+  ]
+}
