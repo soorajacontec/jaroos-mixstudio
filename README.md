@@ -54,7 +54,7 @@ Created by **SSK-BLUM**.
 No build step and no dependencies. Serve the folder with any static server:
 
 ```bash
-git clone https://github.com/<your-username>/jaroos.git
+git clone https://github.com/soorajacontec/jaroos-mixstudio.git
 cd jaroos
 python3 -m http.server 8080
 # open http://localhost:8080
@@ -69,7 +69,7 @@ This repository includes a workflow (`.github/workflows/deploy-pages.yml`) that 
 1. Push the repository to GitHub.
 2. Go to **Settings → Pages** and set **Source** to **GitHub Actions**.
 3. Push to `main`, or run the workflow from the **Actions** tab.
-4. Your app is live at `https://<your-username>.github.io/jaroos/`.
+4. Your app is live at `https://soorajacontec.github.io/jaroos-mixstudio/`.
 
 Prefer no workflow? Set **Source** to **Deploy from a branch**, pick `main` and `/ (root)`.
 
